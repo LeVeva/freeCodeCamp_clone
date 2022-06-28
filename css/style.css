@@ -1,0 +1,656 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Ubuntu&display=swap');
+
+/* General START */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(243, 240, 240);
+}
+
+
+/* General END */
+
+/* Menu START */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    
+    background-color: rgb(10, 10, 63);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+
+.menuPart-one{
+    position: relative;
+}
+
+.menuPart-one > form{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+}
+
+.menuPart-one > form button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    left: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.menuPart-one > form button i{
+    font-weight: 600 !important;
+}
+
+.menuPart-one > form button:hover{
+    cursor: pointer;
+    background-color: rgb(10, 10, 63);
+}
+
+.menuPart-two{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.menuPart-two a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuPart-one input[type="text"]{
+    background-color: rgb(56, 56, 92);
+    width: 450px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding-left: 25px;
+}
+
+input.searchBar:active, input.searchBar:focus, input.searchBar:focus-visible{
+    outline-style: solid;
+    outline-color: rgb(77, 198, 238);
+    outline-width: 3px
+}
+
+::placeholder{
+    color: rgb(206, 199, 199);
+}
+
+/* .menuPart-two i{
+    top: 7px;
+    position: relative;
+    margin-left: 5px;
+} */
+
+.menuPart-three img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menuPart-three{
+    display: flex;
+    padding: 3px;
+}
+
+.menuPart-three .menu-btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.menuPart-three ul{
+    display: flex;
+}
+
+.menuPart-three li{
+    list-style-type: none;
+}
+
+li.donationList{
+    width: 28px;
+    height: 28px;
+}
+/* Menu END */
+
+/* Section One START */
+.section_one{
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section_one p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section_one ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_one ul li{
+    display: flex;
+    align-items: center;
+}
+
+.section_one ul li p{
+    color: rgb(59, 57, 57);
+    margin-left: 7px;
+}
+
+.section_one ul li i{
+    font-size: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(59, 57, 57);
+}
+
+.getStartedBtn-row{
+    text-align: center;
+    /* padding: 50px 0px; */
+    padding-top: 50px;
+}
+
+.getStarted-btn{
+    border: 3px solid #BE9617;
+    text-decoration: none;
+    background-color: #D8B031;
+    padding: 6px 100px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 3px;
+}
+
+a.getStarted-btn:hover{
+    background-color: #F1C94A
+}
+
+.team_work_row img{
+    width: 100%;
+}
+
+.team_work_row p{
+    text-align: center;
+}
+/* Section One END */
+
+/* Section Two START */
+.section_two{
+    background-color: rgb(35, 35, 60);
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+
+.sectionTwo-sub{
+    width: 50%;
+    margin: auto;
+}
+
+.section_two h1{
+    color: rgb(195, 189, 189);
+}
+
+.companies{
+    color: rgb(165, 165, 165);
+    font-size: 18px;
+}
+
+.otherCompanies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.otherCompanies ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+/* Section Two END */
+
+/* Section Three START */
+.section_three{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.alumni_row{
+    margin-top: 50px;
+    display: flex;
+}
+
+.alumni_row img{
+    /* min-height: 100%; */
+    /* width: 350px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.alumni_row .alumni_image{
+    flex-basis: 30%;
+    height: 400px;
+}
+
+.alumni_row .alumni_description{
+    flex-basis: 80%;
+    background-color: rgb(255, 253, 253);
+    padding: 70px 45px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 400px;
+}
+
+.alumni_row .alumni_description b{
+    font-weight: 600;
+}
+
+.alumni_quote{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.emmaBoston{
+    object-position: 0px 0%;
+}
+/* Section Three END */
+
+/* Section Four START */
+.section_four{
+    padding: 70px 0px;
+    width: 50%;
+    margin: auto;
+}
+
+.section_four .title{
+    text-align: left;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section_four ul li{ 
+    list-style-type: none;
+    
+}
+
+.section_four .courseLinks a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    background-color: rgb(214, 208, 208);
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    border: 3px solid rgb(10, 10, 63);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 50px;
+    z-index: -1;
+}
+
+.section_four .courseLinks a:hover{
+    background-color: rgb(10, 10, 63);
+    color: #fff;
+}
+
+.fa-solid.fa-angles-right{
+    right: 20px;
+    position: absolute;
+}
+
+.iconOnLeft{
+    font-size: 60px;
+    padding: 0px 15px;
+}
+/* Section Four END */
+
+/* Footer START */
+footer{
+    background-color: #d9dede;
+}
+
+footer a, footer p{
+    color: rgb(35, 35, 60);
+}
+
+.footer-main{
+    padding: 50px 0px;
+    width: 75%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.footer-bottom{
+    padding-bottom: 50px;
+    width: 75%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.footer-bottom ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom li{
+    list-style-type: none;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-bottom a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sub-two h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer .trendingGuides{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sub-one{
+    flex-basis: 45%;
+}
+
+.footer-sub-two{
+    flex-basis: 53%;
+}
+
+.trendingGuides li{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.trendingGuides li a{
+    text-decoration: none;
+}
+
+.trendingGuides li a:hover{
+    text-decoration: underline;
+}
+
+/* a.taxDeductible{
+    text-decoration: underline;
+    text-underline-position: under  ;
+}
+
+a.taxDeductible:hover{
+    text-decoration: none;
+} */
+
+a.taxDeductible:hover{
+    text-decoration: none;
+}
+
+a.taxDeductible{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.taxDeductible-paragraph{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-sub-one p{
+    line-height: 2;
+}
+/* Footer END */
+
+/* Responsive START */
+@media only screen and (max-width: 950px){
+    .team_work_row{
+        display: none;
+    }
+
+    .alumni_row{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .alumni_row img{
+        width: 100%;
+    }
+
+    .alumni_row .alumni_image{
+        display: flex;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .footer-bottom ul{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-bottom li{
+        padding: 5px 0px;
+    }
+
+    .footer-bottom h4{
+        text-align: center;
+        padding: 15px 0px;
+        font-weight: 500;
+    }
+
+    .footer-sub-two h4{
+        font-weight: 500;
+    }
+
+    .footer-sub-one{
+        padding-bottom: 50px;
+    }
+
+    .alumni_row .alumni_description{
+        padding: 30px 25px;
+    }
+
+    .alumni_position, .alumni_position{
+        font-size: 19px;
+    }
+
+    .alumni_image img{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    h1{
+        font-size: 26px;
+    }
+
+    .section_one{
+        width: 90%;
+    }
+
+    .section_one ul{
+        flex-wrap: wrap;
+    }
+
+    .section_one ul li{
+        padding: 10px;
+    }
+
+    .getStarted-btn{
+        padding: 6px 2px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .section_four{
+        width: 90%;
+    }
+
+    .section_four .iconOnLeft{
+        padding: 0px 10px;
+        font-size: 40px;
+    }
+
+    .section_four .courseLinks a{
+        padding: 10px 5px;
+        padding-right: 45px;
+    }
+
+    footer .trendingGuides{
+        flex-direction: column;
+    }
+
+    .section_three{
+        width: 85%;
+    }
+
+    .alumni_row img{
+        height: 300px;
+    }
+
+    .section_three > h1 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .sectionTwo-sub{
+        width: 90%;
+    }
+
+    .otherCompanies ul li{
+        padding: 5px;
+    }
+
+    .companies{
+        font-size: 14px;
+    }
+
+    .section_two{
+        padding: 30px 0px;
+    }
+
+    .menuPart-three li.donationList{
+        display: none;
+    }
+
+    .menuPart-two{
+        font-size: 21px;
+    }
+
+    .menuPart-three .menu-btn{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 950px){
+    h1{
+        font-size: 40px;
+    }
+
+    .section_one, .section_four{
+        width: 70%;
+    }
+
+    .alumni_row{
+        width: 60%;
+    }
+
+    .sectionTwo-sub{
+        width: 70%;
+    }
+
+    .otherCompanies ul li{
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .footer-bottom{
+        padding-top: 30px;
+    
+    }
+}
+
+@media only screen and (min-width: 950px){
+    .footer-bottom{
+        border-top: 1px solid rgb(180, 179, 179);
+    }
+
+    .footer-bottom h4{
+        display: none;
+    }
+    
+    .pdg-70{
+        padding-bottom: 50px;
+    }
+
+    .menuPart-two{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .menuPart-one{
+        display: none;
+    }
+}
+
+
+
+
+/* Responsive END */
+
