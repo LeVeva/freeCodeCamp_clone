@@ -21,6 +21,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 nav{
@@ -324,7 +325,6 @@ a.getStarted-btn:hover{
     align-items: center;
     position: relative;
     padding-right: 50px;
-    z-index: -1;
 }
 
 .section_four .courseLinks a:hover{
